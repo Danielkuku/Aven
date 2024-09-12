@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Aven</title>
+    <script
+      src="https://kit.fontawesome.com/a68566b9c8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="icon" href="images/logo.avif" />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="./images/logo.avif" alt="" />
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-symbols-outlined"> close </span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="#" class="active"
+            ><span class="material-symbols-outlined"> grid_view </span>
+            <h3>Dashbord</h3></a
+          >
+          <a href="#"
+            ><span class="material-symbols-outlined"> person </span>
+            <h3>Customers</h3></a
+          >
+          <a href="#"
+            ><span class="material-symbols-outlined"> receipt_long </span>
+            <h3>Orders</h3></a
+          >
+          <a href="#"
+            ><span class="material-symbols-outlined"> monitoring </span>
+            <h3>Analytics</h3></a
+          >
+          <a href="#"
+            ><span class="material-symbols-outlined"> mail </span>
+            <h3>Messages</h3>
+            <span class="message-count">21</span></a
+          >
+          <a href="#"
+            ><span class="material-symbols-outlined"> inventory </span>
+            <h3>Products</h3>
+          </a>
+          <a href="#"
+            ><span class="material-symbols-outlined"> report </span>
+            <h3>Reports</h3></a
+          >
+          <a href="#"
+            ><span class="material-symbols-outlined"> settings </span>
+            <h3>Settings</h3></a
+          >
+          <a href="#"
+            ><span class="material-symbols-outlined"> add </span>
+            <h3>Add Products</h3></a
+          >
+          <a href="#"
+            ><span class="material-symbols-outlined"> logout </span>
+            <h3>Logout</h3></a
+          >
+        </div>
+      </aside>
+
+      <!-- main section -->
+
+      <main>
+        <h1>Dashbord</h1>
+        <div class="date">
+          <input type="date" />
+        </div>
+        <div class="insights">
+          <!-- start of sales -->
+          <div class="sales">
+            <span class="material-symbols-outlined"> analytics </span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Sales</h3>
+                <h1>$31,120</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>80%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 48 Hours</small>
+          </div>
+
+          <!-- end of sales -->
+
+          <!-- start of expenses -->
+          <div class="expenses">
+            <span class="material-symbols-outlined"> bar_chart </span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Expenses</h3>
+                <h1>$17,120</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>63%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 48 Hours</small>
+          </div>
+          <!-- end of expenses -->
+
+          <!-- start of income -->
+          <div class="income">
+            <span class="material-symbols-outlined"> stacked_line_chart </span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Income</h3>
+                <h1>$43,250</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>42%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 48 Hours</small>
+          </div>
+          <!-- end of income -->
+        </div>
+
+        <!-- end of insights -->
+
+        <div class="recents-orders">
+          <h2>Recent</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Product Number</th>
+                <th>Payment</th>
+                <th>Status</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <td>Fenty Sun Scream</td>
+                <td>75634</td>
+                <td>Due</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Details</td>
+              </tr> -->
+            </tbody>
+          </table>
+
+          <a href="#">Show All</a>
+        </div>
+      </main>
+
+      <!-- end of main -->
+
+      <!-- start of right -->
+      <div class="right">
+        <div class="top">
+          <div class="menu-btn">
+            <span class="material-symbols-outlined"> menu </span>
+          </div>
+          <div class="theme-togggler">
+            <span class="material-symbols-outlined active"> light_mode </span>
+            <span class="material-symbols-outlined"> dark_mode </span>
+          </div>
+          <div class="profile">
+            <div class="info">
+              <p>Hey, <b>Daniel</b></p>
+              <small class="text-muted">Admin</small>
+            </div>
+            <div class="profile-picture">
+              <img src="images/profile1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- end of top -->
+
+        <div class="recent-updates">
+          <h2>Recent Updates</h2>
+          <div class="updates">
+            <div class="update">
+              <div class="profile-picture">
+                <img src="images/profile2.jpg" alt="" />
+              </div>
+              <div class="messages">
+                <p>
+                  <b>James Bond</b> received his order of the Fenty Sun Scream
+                </p>
+                <small class="text-muted">2 Minutes Ago</small>
+              </div>
+            </div>
+            <div class="update">
+              <div class="profile-picture">
+                <img src="images/profile4.jpg" alt="" />
+              </div>
+              <div class="messages">
+                <p>
+                  <b>Julia Anna</b> received his order of the Fenty Sun Scream
+                </p>
+                <small class="text-muted">2 Minutes Ago</small>
+              </div>
+            </div>
+            <div class="update">
+              <div class="profile-picture">
+                <img src="images/profile3.jpg" alt="" />
+              </div>
+              <div class="messages">
+                <p>
+                  <b>William James</b> received his order of the Fenty Sun
+                  Scream
+                </p>
+                <small class="text-muted">2 Minutes Ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sales-analytics">
+          <h2>Sales Analytics</h2>
+          <div class="item-online item">
+            <div class="icon">
+              <span class="material-symbols-outlined"> shopping_cart </span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>ONLINE ORDERS</h3>
+                <small class="text-muted">Last 48 Hours</small>
+              </div>
+              <h5 class="success">+41%</h5>
+              <h3>3587</h3>
+            </div>
+          </div>
+          <div class="item-offline item">
+            <div class="icon">
+              <span class="material-symbols-outlined"> local_mall </span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>OFFLINE ORDERS</h3>
+                <small class="text-muted">Last 48 Hours</small>
+              </div>
+              <h5 class="danger">-19%</h5>
+              <h3>1100</h3>
+            </div>
+          </div>
+          <div class="item-customers item">
+            <div class="icon">
+              <span class="material-symbols-outlined"> person </span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>NEW CUSTOMERS</h3>
+                <small class="text-muted">Last 48 Hours</small>
+              </div>
+              <h5 class="success">+41%</h5>
+              <h3>748</h3>
+            </div>
+          </div>
+          <div class="item add-product">
+            <div>
+              <span class="material-symbols-outlined"> add </span>
+              <h3>Add Product</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="orders.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
