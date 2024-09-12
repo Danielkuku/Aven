@@ -558,7 +558,7 @@ main .recents-orders a {
 
   aside .sidebar a:last-child {
     position: absolute;
-    bottom: 2rem;
+    bottom: 4rem;
   }
   aside .close {
     display: inline-block;
