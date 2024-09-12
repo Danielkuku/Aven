@@ -533,7 +533,7 @@ main .recents-orders a {
     width: 18rem;
     z-index: 3;
     box-shadow: 1rem 3rem 4rem var(--color-light);
-    height: 110vh;
+    height: 100vh;
     padding-right: var(--card-padding);
     display: none;
     animation: showMenu 400ms ease forwards;
