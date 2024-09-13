@@ -219,8 +219,8 @@ main .date {
   padding: 0.5rem 1.6rem;
 }
 main .date input[type="date"] {
-  /* background: transparent;
-  color: var(--color-dark); */
+  background: transparent;
+  color: red;
   border: none;
 }
 
